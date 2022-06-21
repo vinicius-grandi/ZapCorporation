@@ -1,25 +1,8 @@
-import React, { useState } from 'react';
-import styled from 'styled-components'
-import { i18n } from './translate/i18'
-
-const Header = styled.header`
-  display: flex;
-  padding: 0.3rem 1.5rem;
-  justify-content: space-between;
-  background-color: #007A78;
-  color: #FFC745;
-`
-
-const ChangeLanguage = styled.button`
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  width: fit-content;
-  img {
-    border: 1px solid black;
-    border-radius: 20%;
-  }
-`
+import React from 'react';
+import styled from 'styled-components';
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import { i18n } from "./translate/i18";
 
 const Main = styled.main`
   background:
@@ -58,39 +41,10 @@ const BotIcon = styled.button`
   }
 `
 
-const Footer = styled.footer`
-  display: flex;
-  background-color: #007A78;
-  font-size: 1.5rem;
-  position: absolute;
-  bottom: 0;
-  p {
-    margin: 0;
-    color: #FFC745;
-    overflow-x: hidden;
-    padding: 0.4rem;
-  }
-  margin-top: auto;
-  width: 100%;
-`
-
 function App() {
-  const getAnotherLang = () => i18n.language === 'pt' ? 'en' : 'pt'
-
-  const [anotherLang, setAnotherLang] = useState(getAnotherLang())
   return (
     <>
-        <Header>
-            <h1>ZAP CORPORATION</h1>
-            <ChangeLanguage type="button" onClick={
-              () => {
-              i18n.changeLanguage(anotherLang)
-              setAnotherLang(getAnotherLang())
-            }}
-            >
-              <img src="/change-language-icon.png" alt="change language icon" />
-            </ChangeLanguage>
-        </Header>
+        <Header />
         <Main>
             <section>
                 <h1>{i18n.t<string>('titles.section')}</h1>
@@ -104,9 +58,7 @@ function App() {
                 </BotArticle>
             </section>
         </Main>
-        <Footer>
-          <p>Desenvolvido por <a href="https://github.com/vinicius-grandi" target="_blank" rel="noreferrer">Vinicius Grandi</a> e design por <a href="https://github.com/Luan-0liveira" target="_blank" rel="noreferrer">Luan Oliveira</a></p>
-        </Footer>
+        <Footer />
     </>
   );
 }

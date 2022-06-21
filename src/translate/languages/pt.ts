@@ -9,6 +9,6 @@ const messages = {
             }
         }
     }
-}
+};
 
-export { messages }
+export { messages };
