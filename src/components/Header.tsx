@@ -43,7 +43,7 @@ function Header() {
               setAnotherLang(getAnotherLang())
             }}
             >
-              <img src="/change-language-icon.png" alt="change language icon" />
+              <img src="/ZapCorporation/change-language-icon.png" alt="change language icon" />
             </ChangeLanguage>
     </StyledHeader>
   )

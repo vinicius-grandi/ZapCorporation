@@ -91,7 +91,7 @@ function Main() {
         <BotArticle>
           <p>{t<string>('home.messages.bot')}</p>
           <BotIcon onClick={() => setShowOverlay(!showOverlay)}>
-            <img src="/whatsapp-icon.png" alt="whatsapp icon" />
+            <img src="/ZapCorporation/whatsapp-icon.png" alt="whatsapp icon" />
             <span>ACCESS BOT</span>
             {showOverlay && <span id="wip">{t('home.messages.wip')}</span>}
           </BotIcon>
