@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ZapCorporation/static/css/main.cf80d0c5.css",
-    "main.js": "/ZapCorporation/static/js/main.46b9441c.js",
+    "main.js": "/ZapCorporation/static/js/main.809b5402.js",
     "index.html": "/ZapCorporation/index.html",
     "main.cf80d0c5.css.map": "/ZapCorporation/static/css/main.cf80d0c5.css.map",
-    "main.46b9441c.js.map": "/ZapCorporation/static/js/main.46b9441c.js.map"
+    "main.809b5402.js.map": "/ZapCorporation/static/js/main.809b5402.js.map"
   },
   "entrypoints": [
     "static/css/main.cf80d0c5.css",
-    "static/js/main.46b9441c.js"
+    "static/js/main.809b5402.js"
   ]
 }
