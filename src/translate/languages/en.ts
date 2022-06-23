@@ -12,7 +12,7 @@ const messages = {
       },
       privacyPolicy: {
         'Privacy Policy': [
-          { p: 'Last updated: June 11, 2022' },
+          { p: 'Last updated: June 23, 2022' },
           {
             p: 'This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.',
           },
@@ -34,9 +34,9 @@ const messages = {
               'Affiliate',
               ' means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.',
               'Application',
-              ' means the software program provided by the Company downloaded by You on any electronic device, named Zap-God',
+              ' means the software program provided by the Company downloaded by You on any electronic device, named ZapCorporation',
               'Company',
-              ' (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Zap-God.',
+              ' (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to ZapCorporation.',
               'Country',
               ' refers to: Brazil',
               'Device',
@@ -60,7 +60,7 @@ const messages = {
           {
             p: 'While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:',
           },
-          { ul: ['Phone number', 'Usage Data'] },
+          { ul: ['Phone number —', ' Usage Data'] },
           { h3: 'Usage Data' },
           {
             p: 'Usage Data is collected automatically when using the Service.',
@@ -149,10 +149,15 @@ const messages = {
           },
           {
             ul: [
+              '\n',
               'Comply with a legal obligation',
+              '\n',
               'Protect and defend the rights or property of the Company',
+              '\n',
               'Prevent or investigate possible wrongdoing in connection with the Service',
+              '\n',
               'Protect the personal safety of Users of the Service or the public',
+              '\n',
               'Protect against legal liability',
             ],
           },
@@ -195,8 +200,7 @@ const messages = {
           {
             ul: [
               'By email: ',
-              '[email\xa0protected]',
-              'By phone number:  5516992457333',
+              'viniciusggrandi@gmail.com',
             ],
           },
         ],
