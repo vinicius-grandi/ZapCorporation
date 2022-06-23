@@ -6,6 +6,8 @@ import styled from 'styled-components';
 const StyledFooter = styled.footer`
   background-color: #007a78;
   font-size: 1rem;
+  box-sizing: border-box;
+  padding: 1rem;
   p {
     margin: 0;
     color: #ffc745;
@@ -30,6 +32,8 @@ const StyledFooter = styled.footer`
   li {
     width: fit-content;
     display: inline;
+    margin: 0;
+    padding: 0;
   }
 `;
 
@@ -47,7 +51,7 @@ function Footer() {
           | <Link to="/privacy-policy">{t('footer.first')}</Link> |{' '}
         </li>
         <li>
-          <Link to="/about">{t('footer.second')}</Link>
+          <Link to="/about">{t('footer.second')}</Link> |
         </li>
       </ul>
       <p>
