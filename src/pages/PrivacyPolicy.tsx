@@ -2,10 +2,8 @@ import React, { createElement, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyledMain } from '../components/Main';
 import styled from 'styled-components';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
-const Section = styled.section`
+export const Section = styled.section`
   background-color: white;
   padding: 2rem;
   border-radius: 5px;
@@ -21,7 +19,6 @@ function PrivacyPolicy() {
 
   return (
     <>
-      <Header />
       <StyledMain style={{ paddingTop: 0 }}>
         <Section>
           {Object.keys(
@@ -73,7 +70,6 @@ function PrivacyPolicy() {
           ))}
         </Section>
       </StyledMain>
-      <Footer />
     </>
   );
 }

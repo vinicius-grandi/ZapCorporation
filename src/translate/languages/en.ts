@@ -34,9 +34,9 @@ const messages = {
               'Affiliate',
               ' means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.',
               'Application',
-              ' means the software program provided by the Company downloaded by You on any electronic device, named ZapCorporation',
+              ' means the software program provided by the Company downloaded by You on any electronic device, named Zap Corporation',
               'Company',
-              ' (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to ZapCorporation.',
+              ' (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Zap Corporation.',
               'Country',
               ' refers to: Brazil',
               'Device',
@@ -198,14 +198,20 @@ const messages = {
             p: 'If you have any questions about this Privacy Policy, You can contact us:',
           },
           {
-            ul: [
-              'By email: ',
-              'viniciusggrandi@gmail.com',
-            ],
+            ul: ['By email: ', 'viniciusggrandi@gmail.com'],
           },
         ],
       },
+      about: {
+        title: 'About Us',
+        paragraphs: [
+        "Zap Corporation is a company that provides digital solutions to businesses and organizations. We're committed to providing the best possible products and services to our clients, and we're always striving to innovate and improve.",
+        "Our team is made up of some of the brightest minds in the business, and we're always looking for new ways to push the envelope.",
+        "We're also committed to building our products responsibly, with safety and ethics in mind. We believe that technology can be a force for good, and we're working to make sure that it is.",
+      ]},
       footer: {
+        first: 'Privacy Policy',
+        second: 'About',
         part1: 'Developed by',
         part2: 'and designed by',
       },
