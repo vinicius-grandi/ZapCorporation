@@ -14,6 +14,7 @@ export const Section = styled.section`
 `;
 
 function PrivacyPolicy() {
+  document.title = 'Privacy Policy'
   const { t } = useTranslation();
   let strongText = useRef('');
 

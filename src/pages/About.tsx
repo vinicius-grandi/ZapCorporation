@@ -4,6 +4,7 @@ import { StyledMain } from '../components/Main';
 import { useTranslation } from 'react-i18next';
 
 function About() {
+  document.title = 'About'
   const { t } = useTranslation();
   return (
     <StyledMain>
